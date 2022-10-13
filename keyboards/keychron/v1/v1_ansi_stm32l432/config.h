@@ -16,6 +16,10 @@
 
 #pragma once
 
+/*Keyboard UID*/
+
+//#define VIAL_KEYBOARD_UID {0x64, 0xB0, 0x77, 0x50, 0x78, 0x5F, 0x04, 0x7B}
+
 /* RGB Matrix Configuration */
 #define DRIVER_1_LED_TOTAL 45
 #define DRIVER_2_LED_TOTAL 37
@@ -25,4 +29,4 @@
     { 0xA6, 0xA6, 0x50, 0xA6, 0xA6, 0x50, 0xA6, 0xA6, 0x50, 0xA6, 0xA6, 0x50 }
 
 /* Enable caps-lock LED */
-#define CAPS_LOCK_LED_INDEX 45
+#define CAPS_LOCK_LED_INDEX 45 // 45 is the index of the LED in the first driver
